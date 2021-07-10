@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  width: 100vw;
+  height: 8vh;
+  color: #62e3e3;
+  background-color: #20232a;
+  display: flex;
+  box-shadow: 2px 2px 20px greenyellow;
+}
+
+header {
+  align-items: center;
+}
+
+header div {
+  margin-left: 20px;
+}
+
+main {
+  height: cover;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 255, 0, 0.26);
+}
+
+.left-container {
+  height: 80vh;
+  background-color: #c1e1c5;
+  margin: 1em 50px 20px 10%;
+  border-radius: 13px;
+  box-shadow: 2px 2px 20px blue;
+  padding: 20px 20px 40px 20px;
+}
+.left-container span {
+  color: red;
+  font-size: 20px;
+}
+footer span {
+  color: #ffff;
+  align-items: center;
+}
+
+label {
+  color: #006b76;
+  font-size: 1.2em;
+}
+
+input,
+textarea,
+button {
+  outline: none;
+  border: 1px solid rgb(101, 101, 226);
+  box-shadow: 2px 2px 20px white;
+  border-radius: 10px;
+  background-color: rgba(116, 185, 231, 0.267);
+  margin-bottom: 10px;
+}
+
+.typ-txt {
+  height: 3em;
+  width: 20em;
+  position: relative;
+}
+
+textarea {
+  height: 7em;
+  width: 100%;
+}
+
+.gen {
+  color: #0e373b;
+  font-size: 1em;
+  margin-left: 30px;
+}
+
+button {
+  margin-right: 20px;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.right-container {
+  width: 50vw;
+  height: cover;
+  background-color: burlywood;
+  margin: 1em 1em 20px 1em;
+  border-radius: 15px;
+  box-shadow: 2px 0px 10px blueviolet;
+  padding-bottom: 20px;
+  /* overflow-y: scroll; */
+}
+
+h2 {
+  color: #09454b;
+  text-align: center;
+}
+
+.feedback-card {
+  width: 90%;
+  /* height: 100px; */
+  background-color: #444851;
+  margin: 10px 5px 0vw 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px #ffff;
+  position: relative;
+}
+
+.feedback-head {
+  color: gold;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+.feedback-body {
+  /* color: hotpink; */
+  color: lightgreen;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class="right-container"] {
+    width: 90%;
+  }
+  [class="left-container"] {
+    width: 90%;
+  }
+}
